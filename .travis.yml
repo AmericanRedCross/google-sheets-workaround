@@ -1,15 +1,14 @@
 language: node_js
 install:
-  - npm install
+- npm install
 script:
-  - node app.js
+- node app.js
 deploy:
-  github-token: $GH_TOKEN
+  github-token: "$GH_TOKEN"
   on:
-    branch: publish
+    branch: gh-pages
   local_dir: files
-    # ⋮ 
-  edge: true 
-  # opt in to travis-ci dpl v2
-  
-  
+  edge: true
+env:
+  matrix:
+    secure: W1R8qswEwnABwwUL+ER6hPb//fttvy+INj4y9GlxayKtLhDu5e4wEfJ4I7keiTHs7RCjBLVmE7S4TblKPPkorSd430OwvIYcab9+ouzHZP1whdL0yGGNpS0vwCVNEojT1yEG+exxAnGsAGOzumbSCCpx3oHbCsDKb+IgMH/voYeOx+rv+uFjGKtBmsISz6CxVjQ21Ck7y+HrtDFV4TcuUkqs0gwKqAVhwL4eCoANdqI+/PIsNW6OUE94Icj+IvSTtH6r2GooZWvGS/rzXQ2g6j89yq6h3lDCukrw9FyDIv6bQhqWDTR/OcV9YplEIzqLvV6kH5nbvm4Vq3Fq3kgRRx+rRqTKO6mBSaa9BNuAmh+/cRuJAoDQmSvMNwIaY3RUxVZI9W/FPCjkhdINf5CqU9rAj109OVqpUN4EIg2HRHIv661hcAWLjxWG6XJ7gWgcdpbBXj9q2PmuCxaZdsBNypLvBdEngWl7Yxtr482faFuMRjVBOVQNLrhLbDYP9o4pKs02PzoBbvtEtk9voVuNL8JE9D1KK8OB8/EjiIjl+s2a6wMNfSEhNIbfBJ718hMXU74d4wxne5hc+oVFdoyNLMPMUSTdQj07iOeR/5jM20VfryZ8W7uxERND5ZCgUoCRgzm5zbdK75qS/5pWKmEQLpsjSBdEZJlu2Qq8widixD0=
