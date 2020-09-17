@@ -4,9 +4,10 @@ install:
 script:
 - node app.js
 deploy:
+  provider: pages
   github-token: "$GH_TOKEN"
   on:
-    branch: gh-pages
+    branch: base
   local_dir: files
   edge: true
 env:
