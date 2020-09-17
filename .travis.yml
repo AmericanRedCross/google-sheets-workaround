@@ -1,0 +1,15 @@
+language: node_js
+install:
+  - npm install
+script:
+  - node app.js
+deploy:
+  github-token: $GH_TOKEN
+  on:
+    branch: publish
+  local_dir: files
+    # ⋮ 
+  edge: true 
+  # opt in to travis-ci dpl v2
+  
+  

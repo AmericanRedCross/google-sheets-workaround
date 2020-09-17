@@ -1,0 +1,15 @@
+{
+  "name": "google-sheets-hack",
+  "version": "0.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "danbjoseph",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "async": "^3.2.0",
+    "needle": "^2.5.2"
+  }
+}
