@@ -8,4 +8,6 @@ One workaround seems to be prepending 'https://cors-anywhere.herokuapp.com/' to 
 
 Another workaround seems to be using a server to download the data and save it somewhere more easily accessible. So we're going to use a Travis-CI build (run daily), to fetch the data from a collection of Google Sheets and save it to a GitHub repository.
 
+The Travis-CI build will push the files to the `data` folder on the `gh-pages` branch. You'll be able to access them from other sites that are part of the same GitHub organization using a URL such as: https://americanredcross.github.io/google-sheets-workaround/research-mapping.csv
+
 For the Travis-CI connection, a GitHub personal access token with 'public_repo - Access public repositories' permissions created and added via `travis encrypt GH_TOKEN=my_github_token --add env.matrix` as described in the [Travis-CI docs](https://docs.travis-ci.com/user/environment-variables#Encrypting-environment-variables).
