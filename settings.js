@@ -1,7 +1,7 @@
 var settings = {}
 
 settings.urls = [
-	{ name: 'gdpc-movement-apps',
+	{ name: 'gdpc-apps-mapping',
 		url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRl_O5oRaCB-YGQtqDKH0Hm9GWxH6T4qGUfPe9oM9HDNXtEaPacIFeztQfpPA72IyVGEVwzXZjQYiEW/pub?gid=0&single=true&output=csv'}
 	,{ name: 'research-mapping',
     url: 'https://docs.google.com/spreadsheets/d/1NgKu_88w4Im7fWeosuRdzLeIg1qG26q0x70RYULdew0/pub?output=csv'}
