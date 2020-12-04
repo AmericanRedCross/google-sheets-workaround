@@ -1,5 +1,5 @@
 app_name,description,app_developer,category,link_google,link_apple,general link (NS),countries,logo
-TEST,"This is a test",testing,no category,http://example.com,http://example.com,http://example.com,MEX USA AUS CAN,
+TEST,Test entry.,None,N/A,http://example.com,http://example.com,http://example.com,USA BRA AUS MEX CAN,
 Kenya Red Cross App,"The app allows users to receive timely and life-saving information during emergencies and makes it easier for partners and the public to connect, talk and engage with KRCS",Connectik,social,https://play.google.com/store/apps/details?id=com.connectik.members&hl=en_US,https://apps.apple.com/ke/app/krcs-members/id1091672571?ls=1,https://www.redcross.or.ke/get-app,KEN,
 My MDA,In case of emergency - applet lets call MDA's emergency call center by pressing a button.,Magen David Adom,health & fitness,https://play.google.com/store/apps/details?id=il.org.mda.mymada&hl=en_US,,,ISR,myMDA.png
 iTransfuse,"The iTransfuse App promotes safe, appropriate and evidence-based transfusion by providing bedside access to transfusion education tools and resources.",Australian Red Cross Society,medical,https://play.google.com/store/apps/details?id=air.com.arcbs.bloodtyping,https://apps.apple.com/au/app/blood-typing/id946782488,https://transfusion.com.au/iTransfuse,AUS,itransfuse.png
